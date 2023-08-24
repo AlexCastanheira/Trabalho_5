@@ -372,7 +372,7 @@ function enviarPenalts3() {
         gol4.disabled = true;
         botaoResultado5.hidden = true;
         Swal.fire({
-            iconHtml: '<img src="../img/bandeiraTRP.gif" alt="Ícone de bandeira">',
+            iconHtml: '<img src="./img/bandeiraTRP.gif" alt="Ícone de bandeira">',
             title: 'Campeão',
             text: 'O campeão é ' + timeFinal1,
             confirmButtonColor: corFinal2,
@@ -389,7 +389,7 @@ function enviarPenalts3() {
         document.querySelector("#gol5").disabled = false;
         document.querySelector("#gol6").disabled = false;
         Swal.fire({
-            iconHtml: '<img src="../img/bandeiraTRP.gif" alt="Ícone de bandeira">',
+            iconHtml: '<img src="./img/bandeiraTRP.gif" alt="Ícone de bandeira">',
             title: 'Campeão',
             text: 'O campeão é ' + timeFinal2,
             confirmButtonColor: corFinal1,
