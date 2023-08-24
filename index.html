@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Campeonato</title>
+</head>
+
+<body>
+
+
+
+    <div class="background-container">
+        <div class="container">
+            <div class="form-container">
+
+                <div class="form-row">
+
+                    <div class="team-container">
+                        <input id="time1" type="text" placeholder="Time 1">
+                        <input id="cor1" type="color">
+                    </div>
+
+                    <div class="team-container">
+                        <input id="time2" type="text" placeholder="Time 2">
+                        <input id="cor2" type="color">
+                    </div>
+
+                    <div class="team-container">
+                        <input id="time3" type="text" placeholder="Time 3">
+                        <input id="cor3" type="color">
+                    </div>
+
+                    <div class="team-container">
+                        <input id="time4" type="text" placeholder="Time 4">
+                        <input id="cor4" type="color">
+                    </div>
+                </div>
+
+                <div class="team-container">
+                    <button id="botaoTimes" type="button" value="">Enviar Times</button>
+                </div>
+                <!-- Jogo 1 -->
+
+                <div class="form-row row">
+
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input id="gol1" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol1" id="labelGol1"></label>
+                        </div>
+
+                        <h2>X</h2>
+
+                        <div class="partida">
+                            <input id="gol2" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol2" id="labelGol2"></label>
+                        </div>
+                    </div>
+                    <button hidden id="jogo1" type="button" value="">Resultado</button>
+                    <button hidden id="jogoPenalts1" type="button" value="">Pênaltis</button>
+
+                    <!-- penalts jogo 1 -->
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input hidden id="penalts1" type="number" min="0" placeholder="Gols">
+                            <label for="penalts1" id="labelPenalts1"></label>
+                        </div>
+
+                        <h2 id="vs1" hidden>X</h2>
+
+                        <div class="partida">
+                            <input hidden id="penalts2" type="number" min="0" placeholder="Gols">
+                            <label for="penalts2" id="labelPenalts2"></label>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="form-row row">
+
+
+                    <!-- jogo 2 -->
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input id="gol3" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol3" id="labelGol3"></label>
+                        </div>
+
+                        <h2>X</h2>
+
+                        <div class="partida">
+                            <input id="gol4" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol4" id="labelGol4"></label>
+                        </div>
+                    </div>
+
+                    <button hidden id="jogo2" type="button" value="">Resultado</button>
+                    <button hidden id="jogoPenalts2" type="button" value="">Pênaltis</button>
+
+                    <!-- penalts2 -->
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input hidden id="penalts3" type="number" min="0" placeholder="Gols">
+                            <label for="penalts3" id="labelPenalts3"></label>
+                        </div>
+
+                        <h2 id="vs2" hidden>X</h2>
+
+                        <div class="partida">
+                            <input hidden id="penalts4" type="number" min="0" placeholder="Gols">
+                            <label for="penalts4" id="labelPenalts4"></label>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- Jogo final -->
+
+                <div class="form-row row">
+
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input id="gol5" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol5" id="labelGolFinal1"></label>
+                        </div>
+                        <h2>X</h2>
+
+                        <div class="partida">
+                            <input id="gol6" type="number" min="0" placeholder="Gols" disabled>
+                            <label for="gol6" id="labelGolFinal2"></label>
+                        </div>
+                    </div>
+                    <button hidden id="jogoFinal" type="button" value="">Resultado</button>
+                    <button hidden id="penaltsFinal" type="button" value="">Pênaltis</button>
+
+                    <!-- penaltsFinal -->
+                    <div class="form-row">
+                        <div class="partida">
+
+                            <input hidden id="penalts5" type="number" min="0" placeholder="Gols">
+                            <label for="penalts5" id="labelPenalts5"></label>
+                        </div>
+
+                        <h2 id="vsFinal" hidden>X</h2>
+
+                        <div class="partida">
+                            <input hidden id="penalts6" type="number" min="0" placeholder="Gols">
+                            <label for="penalts6" id="labelPenalts6"></label>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+/* reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  list-style: none;
+
+}
+
+/* ----- */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../img/campo_background.png')no-repeat;
+  background-position: center;
+}
+
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+
+}
+
+.background-container {
+  background: url('../img/fundo.png') no-repeat center;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+
+
+
+.partida {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="color"],
+button {
+  padding: 8px;
+  border: 1px solid #0697734d;
+  border-radius: 4px;
+
+}
+
+input[type="text"] {
+  width: 5vw;
+}
+
+input[type="number"] {
+  width: 65px;
+
+}
+
+input[type="color"] {
+  width: auto;
+  border-radius: 50px;
+  background-image: url('../img/color-wheel2.png');
+  background-size: cover;
+
+}
+
+button {
+  color: white;
+  background-color: rgba(7, 131, 7, 0.671);
+  border-color: black;
+}
+
+
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="color"]:hover,
+button:hover {
+  opacity: 0.7;
+}
+
+.custom-swal-title {
+  padding: 15px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .form-row {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .row {
+      flex-direction: row !important;
+  }
+
+  .form-container {
+      gap: 10px;
+  }
+
+  h1,
+  h2 {
+      font-size: 18px;
+  }
+
+  .form-row h2,
+  .form-row label {
+      text-align: center;
+  }
+
+
+  input[type="number"] {
+      width: 5vw;
+  }
+
+  .team-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="color"],
+  button {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+
+  }
+
+  input[type="text"] {
+      width: 100%;
+  }
+
+  input[type="color"] {
+      width: auto;
+      max-width: 50px;
+  }
+
+  input[type="number"] {
+      width: 55px;
+
+  }
+
+  button {
+      width: auto;
+      color: white;
+      background-color: rgba(7, 131, 7, 0.671);
+  }
+
+
+  .background-container {
+      background: url('../img/fundo2.png') no-repeat center;
+      background-size: 400px 790px;
+      margin-left: 30px;
+
+  }
+
+  body {
+      background: url('../img/campo_background2.png') no-repeat center;
+      background-size: auto;
+  }
+
+
+
+}
+
+/* Media query para tela 400x889 */
+@media screen and (max-width: 400px) and (min-height: 889px) {
+  input[type="text"] {
+      width: 90vw;
+      /* Ajuste para telas estreitas */
+  }
+}
