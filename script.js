@@ -87,9 +87,9 @@ function enviarPenalts1() {
     if (golTime1 == golTime2) {
         Swal.fire({
             title: "Pênaltis",
-            iconHtml: '<img src="../img/penalty1.png" alt="Ícone de pênalti">',
+            iconHtml: '<img src="./img/penalty1.png" alt="Ícone de pênalti">',
             confirmButtonColor: 'transparent',
-            confirmButtonText: '<img src="../img/bola1.png" alt="Ícone de bola">',
+            confirmButtonText: '<img src="./img/bola1.png" alt="Ícone de bola">',
             background: 'transparent',
             customClass: {
                 title: 'custom-swal-title'
@@ -147,7 +147,7 @@ function enviarPenaltsFinal() {
     if (golTime1 == golTime2) {
 
         Swal.fire({
-            iconHtml: '<img src="../img/apito.png" alt="Ícone de apito">',
+            iconHtml: '<img src="./img/apito.png" alt="Ícone de apito">',
             title: 'Atenção',
             text: 'Pênaltis não podem empatar.',
             confirmButtonColor: '#3085d6',
@@ -215,9 +215,9 @@ function enviarPenalts2() {
     if (golTime3 == golTime4) {
         Swal.fire({
             title: "Pênaltis",
-            iconHtml: '<img src="../img/penalty1.png" alt="Ícone de pênalti">',
+            iconHtml: '<img src="./img/penalty1.png" alt="Ícone de pênalti">',
             confirmButtonColor: 'transparent',
-            confirmButtonText: '<img src="../img/bola1.png" alt="Ícone de bola">',
+            confirmButtonText: '<img src="./img/bola1.png" alt="Ícone de bola">',
             background: 'transparent',
             customClass: {
                 title: 'custom-swal-title'
@@ -279,7 +279,7 @@ function enviarPenaltsFinal2() {
     if (golTime3 == golTime4) {
 
         Swal.fire({
-            iconHtml: '<img src="../img/apito.png" alt="Ícone de apito">',
+            iconHtml: '<img src="./img/apito.png" alt="Ícone de apito">',
             title: 'Atenção',
             text: 'Pênaltis não podem empatar.',
             confirmButtonColor: '#3085d6',
@@ -345,9 +345,9 @@ function enviarPenalts3() {
     if (golTime5 == golTime6) {
         Swal.fire({
             title: "Pênaltis",
-            iconHtml: '<img src="../img/penalty1.png" alt="Ícone de pênalti">',
+            iconHtml: '<img src="./img/penalty1.png" alt="Ícone de pênalti">',
             confirmButtonColor: 'transparent',
-            confirmButtonText: '<img src="../img/bola1.png" alt="Ícone de bola">',
+            confirmButtonText: '<img src="./img/bola1.png" alt="Ícone de bola">',
             background: 'transparent',
             customClass: {
                 title: 'custom-swal-title'
@@ -412,7 +412,7 @@ function enviarPenaltsFinal3() {
     if (golTime5 == golTime6) {
 
         Swal.fire({
-            iconHtml: '<img src="../img/apito.png" alt="Ícone de apito">',
+            iconHtml: '<img src="./img/apito.png" alt="Ícone de apito">',
             title: 'Atenção',
             text: 'Pênaltis não podem empatar.',
             confirmButtonColor: '#3085d6',
@@ -425,7 +425,7 @@ function enviarPenaltsFinal3() {
         penalts6.disabled = true;
 
         Swal.fire({
-            iconHtml: '<img src="../img/bandeiraTRP.gif" alt="Ícone de bandeira">',
+            iconHtml: '<img src="./img/bandeiraTRP.gif" alt="Ícone de bandeira">',
             title: 'Campeão',
             text: 'O campeão é ' + timeFinal1,
             confirmButtonColor: corFinal2,
@@ -440,7 +440,7 @@ function enviarPenaltsFinal3() {
         penalts6.disabled = true;
 
         Swal.fire({
-            iconHtml: '<img src="../img/bandeiraTRP.gif" alt="Ícone de bandeira">',
+            iconHtml: '<img src="./img/bandeiraTRP.gif" alt="Ícone de bandeira">',
             title: 'Campeão',
             text: 'O campeão é ' + timeFinal2,
             confirmButtonColor: corFinal1,
