@@ -378,6 +378,10 @@ function enviarPenalts3() {
             confirmButtonColor: corFinal2,
             confirmButtonText: 'OK',
             background: corFinal1
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
         });
 
 
@@ -395,6 +399,10 @@ function enviarPenalts3() {
             confirmButtonColor: corFinal1,
             confirmButtonText: 'OK',
             background: corFinal2
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
         });
 
     }
@@ -431,7 +439,11 @@ function enviarPenaltsFinal3() {
             confirmButtonColor: corFinal2,
             confirmButtonText: 'OK',
             background: corFinal1
-        }); 1
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
+        });
 
     } else {
 
@@ -446,6 +458,10 @@ function enviarPenaltsFinal3() {
             confirmButtonColor: corFinal1,
             confirmButtonText: 'OK',
             background: corFinal2
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.reload();
+            }
         });
 
     }
