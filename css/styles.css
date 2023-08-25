@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('../img/campo_background.png')no-repeat;
+  background: url('../img/campo_background.webp')no-repeat;
   background-position: center;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .background-container {
-  background: url('../img/fundo.png') no-repeat center;
+  background: url('../img/fundo.webp') no-repeat center;
   background-size: auto;
   display: flex;
   flex-direction: column;
@@ -110,7 +110,7 @@ input[type="number"] {
 input[type="color"] {
   width: auto;
   border-radius: 50px;
-  background-image: url('../img/color-wheel2.png');
+  background-image: url('../img/color-wheel2.webp');
   background-size: cover;
 
 }
@@ -203,14 +203,14 @@ button:hover {
 
 
   .background-container {
-      background: url('../img/fundo2.png') no-repeat center;
+      background: url('../img/fundo2.webp') no-repeat center;
       background-size: 400px 790px;
       margin-left: 30px;
 
   }
 
   body {
-      background: url('../img/campo_background2.png') no-repeat center;
+      background: url('../img/campo_background2.webp') no-repeat center;
       background-size: auto;
   }
 
